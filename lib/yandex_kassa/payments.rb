@@ -13,5 +13,6 @@ module YandexKassa
     has_entity :confirmation, as: YandexKassa::Entities::Confirmation
     has_entity :authorization_details, as: YandexKassa::Entities::AuthDetails
     has_entity :cancellation_details, as: YandexKassa::Entities::CancellationDetails
+    has_entity :payment_method, as: YandexKassa::Entities::PaymentMethod
   end
 end
