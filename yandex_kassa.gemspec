@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["sigra.yandex@gmail.com"]
 
   spec.summary       = "Yandex.Kassa API v3"
-  spec.description   = ""
+  spec.description   = "Simple API wrapper for Yandex Kassa v3"
   spec.homepage      = "https://github.com/sigraman/yandex_kassa"
   spec.license       = "MIT"
 
