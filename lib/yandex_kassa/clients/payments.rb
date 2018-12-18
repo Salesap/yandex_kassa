@@ -7,8 +7,8 @@ module YandexKassa
         get(payment_id, headers: YandexKassa::Headers.get_headers)
       end
 
-      def capture(payment_id)
-        post(path: ':id/capture', id: payment_id, headers: YandexKassa::Headers.post_headers)
+      def capture(payment_id, body)
+        post(path: 'payments/:id/capture', id: payment_id, headers: YandexKassa::Headers.post_headers, json: body)
       end
 
       def create(body)

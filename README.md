@@ -22,6 +22,15 @@ Or install it yourself as:
 
 ## Usage
 
+Create config/initializers/yandex_kassa.rb
+
+```ruby
+YandexKassa::Settings.configure do |config|
+  config.shop_id = 'your shop id'
+  config.api_key = 'your api key'
+end
+```
+
 TODO: Write usage instructions here
 
 ## Development
